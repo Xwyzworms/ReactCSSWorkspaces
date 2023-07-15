@@ -9,6 +9,7 @@ const resetGame = () => {
     inputCheckEl.value  = "";
     scoreEl.textContent = currentScore;
     h1El.textContent = "Guess my number";
+    bodyEl.style.backgroundColor = "#222";
     
 }
 const scoreDecreasingHandler = () =>
